@@ -21,9 +21,9 @@ The project uses PostgreSQL to store element data across three normalized tables
 
 Rebuild the database:
 
-\`\`\`bash
+```bash
 psql -U postgres < periodic_table.sql
-\`\`\`
+```
 
 Run the script:
 
