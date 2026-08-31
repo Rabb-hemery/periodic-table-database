@@ -27,13 +27,13 @@ psql -U postgres < periodic_table.sql
 
 Run the script:
 
-\`\`\`bash
+```bash
 ./element.sh <atomic_number | symbol | name>
-\`\`\`
+```
 
 Examples:
 
-\`\`\`bash
+```bash
 ./element.sh 1
 # The element with atomic number 1 is Hydrogen (H). It's a nonmetal, with a mass of 1.008 amu. Hydrogen has a melting point of -259.1 celsius and a boiling point of -252.9 celsius.
 
@@ -42,7 +42,7 @@ Examples:
 
 ./element.sh Nonexistent
 # I could not find that element in the database.
-\`\`\`
+```
 
 ## Tech
 
